@@ -20,14 +20,6 @@ export const fields = [
     type: "textarea",
     title: "Text Area"
   },
-  {
-    type: "row",
-    title: "Row"
-  },
-  {
-    type: "column",
-    title: "Column"
-  }
 ];
 
 // These define how we render the field
@@ -55,6 +47,4 @@ export const renderers = {
     </p>
   ),
   button: () => <button>Button</button>,
-  row: () => <div className="row"></div>,
-  column: () => <div className="column"></div>
 };
